@@ -27,7 +27,6 @@ Form.succeed SomeRecord
 (:=) : String -> Validation e a -> Validation e a
 (:=) =
   get
-infixl 7 :=
 
 
 {-| Access given field, wrapped in a `maybe` (Nothing if error).
