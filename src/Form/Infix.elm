@@ -5,7 +5,7 @@ module Form.Infix ((:=), (?=), (|:)) where
 @docs (:=), (?=), (|:)
 -}
 
-import Form.Validate exposing (at, maybe, apply)
+import Form.Validate exposing (Validation, get, maybe, apply)
 
 
 {-| Infix version of `apply`:
