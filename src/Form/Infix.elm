@@ -1,4 +1,4 @@
-module Form.Infix ((:=), (?=), (|:)) where
+module Form.Infix exposing ((:=), (?=), (|:))
 
 {-| Form validation infix operators.
 
